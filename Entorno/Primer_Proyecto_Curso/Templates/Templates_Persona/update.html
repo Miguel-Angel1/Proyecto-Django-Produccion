@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block content %}
+{% include "includes/header.html" %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update</title>
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-x">
+        <h1 class="sell">
+            Modificar Empleado
+        </h1>
+        <div class="cell">
+            <form class="grid-x grid-margin-x" method="post">{% csrf_token %}
+                <div class="cell large-6">
+                    <label>Nombres:
+                        {{ form.first_name }}
+                    </label>
+                </div>
+                <div class="cell large-6">
+                    <label>Apellido:
+                        {{ form.last_name }}
+                    </label>
+                </div>
+                <div class="cell large-6">
+                    <label>Trabajo:
+                        {{ form.job }}
+                    </label>
+                </div>
+                <div class="cell large-6">
+                    <label>Area:
+                        {{ form.departamento }}
+                    </label>
+                </div>
+                <div class="cell large-6">
+                    <label>Habilidades
+                        {{ form.habilidades }}
+                    </label>
+                </div>
+                <div class="cell">
+                    <button class="success button" type="submit">Actualizar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+{% endblock content %}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block content %}
+{% include "includes/header.html" %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Empleado</title>
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-x">
+        <h1 class="cell">Registrar Empleado</h1>
+        <form class="cell grid-x grid-margin-x" method="post" enctype="multipart/form-data">{% csrf_token %}
+            <div class="medium-6 cell">
+                <label>Nombres:
+                    {{ form.first_name }}
+                </label>
+            </div>
+            <div class="medium-6 cell">
+                <label>Apellidos:
+                    {{ form.last_name }}
+                </label>
+            </div>
+            <div class="medium-6 cell">
+                <label>Trabajo:
+                    {{ form.job }}
+                </label>
+            </div>
+            <div class="medium-6 cell">
+                <label>Departamento:
+                    {{ form.departamento }}
+                </label>
+            </div>
+            <div class="medium-12 cell">
+                <label>Habilidades:
+                    {{ form.habilidades}}
+                </label>
+            </div>
+            <div class="medium-12 cell">
+                <label>Avatar:
+                    {{ form.avatar}}
+                </label>
+            </div>
+            <div class="medium-12 cell">
+                <button class="button success" type="submit">Agregar</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+{% endblock content %}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--11.2 Include-Header-->
+<!-- Arhivo header- cabecera-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="top-bar">
+    <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">Empleados</li>
+            <!--11.5 URL-Navegación en Template-->
+            <li><a href="{% url 'empleado_app:listar_all_empleados'%}">Listar Empleados</a></li>
+            <li><a href="{% url 'departamento_app:listar'%}">Listar Departamentos</a></li>
+            <li><a href="{% url 'empleado_app:listar_empleados_administrador'%}">Administrar</a></li>
+            <li><a href="{% url 'departamento_app:nuevo_departamento'%}">Nuevo Departamento</a></li>
+        </ul>
+    </div>
+    <div class="top-bar-right">
+        <ul class="menu">
+            <li>
+                <input placeholder='Buscar Empleado' type="search">
+            </li>
+            <li>
+                <a class="button" href="{% url 'empleado_app:registro_empleado'%}">Registrar Nuevo</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

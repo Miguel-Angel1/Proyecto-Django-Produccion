@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="grid-container">
+    <h1 class="cell">Deep Web</h1>
+    <form>{% csrf_token %}
+        <div class="cell large-12">
+            <h2>Introducción</h2>
+            <p align="justify">El ~90% del contenido de la red no es accesible a través buscadores.
+                Eso es una parte de la Deep Web, que engloba toda la información a la que no puedes acceder
+                públicamente.
+                Puede tratarse de páginas convencionales protegidas por un paywall, pero también archivos guardados
+                en Dropbox,
+                correos guardados en los servidores de tu proveedor, y todas esas páginas que se crean durante unos
+                instantes,
+                por ejemplo, cuando configuras un buscador de viajes y te muestra el contenido</p>
+            <p align="justify">Si la Deep Web es el 90% de Internet, la Dark Web ocuparía únicamente el 0,1% de ella.
+                Es una porción de Internet intencionalmente oculta a los motores de búsqueda, con direcciones
+                IP enmascaradas y accesibles sólo con un navegador web especial. La Dark Web por lo tanto forma
+                parte de la Deep Web, pero son cosas diferentes. Por ejemplo, si la Deep Web fuera una ciudad,
+                la Dark Web serían varios barrios. Forman parte de la ciudad, pero no son la ciudad.</p>
+
+            <h3> Opciones </h3>
+            <ul>
+                <li> VPN</li>
+                <li> Niveles de Internet</li>
+                <li> Deep WEB</li>
+                <li> Dark WEb</li>
+            </ul>
+            <h4>Niveles</h4>
+            <ol>
+                <li> Nivel 1</li>
+                <li> Nivel 2</li>
+                <li> Nivel 3</li>
+            </ol>
+            <h5>Despliegue</h5>
+            <ul>
+                <li>Nivel 1</li>
+                <ol>
+                    <li>Internet Básico</li>
+                    <li>10 % conocido</li>
+                </ol>
+                <li>Nivel 2</li>
+                <ol>
+                    <li>Uso de VPN</li>
+                    <li>No conocido</li>
+                </ol>
+            </ul>
+        </div>
+    </form>
+</div>
+</body>
+</html>
+{% endblock content %}

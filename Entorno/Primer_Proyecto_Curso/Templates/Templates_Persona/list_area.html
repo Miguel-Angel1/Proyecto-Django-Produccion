@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block content %}
+{% include "includes/header.html" %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-x">
+        <h1 class="cell">Empleados </h1>
+        <div class="cell">
+            <table>
+                <thead>
+                <tr>
+                    <th width="80">Nombres</th>
+                    <th width="80">Apellidos</th>
+                    <th width="80">Departamento</th>
+                    <th width="20">Accion</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for listar in listaAreasEmpleado %}
+                <tr>
+                    <td>{{ listar.first_name }}</td>
+                    <td>{{ listar.last_name }}</td>
+                    <td>{{ listar.departamento }}</td>
+                    <td><a class="button warning" href="{% url 'empleado_app:lista_detallada' listar.id %}">Detalles</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+{% endblock content %}
+

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00d01e40-d4fe-42c6-9e7a-c52cc5cf5387" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/Empleado/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Empleado/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/Empleado/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Empleado/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Miguel-Angel1/Curso_Django.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cw9Ubv7vSHd7BVySTZQYNg9rGj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Templates/Templates_Empleado" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/Estilos_css" />
+      <recent name="$PROJECT_DIR$/Templates/Templates_Home_Pruebas" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Templates/Templates_Empleado" />
+      <recent name="$PROJECT_DIR$/Applications/Home_Pruebas" />
+      <recent name="$PROJECT_DIR$/Applications/Empleado" />
+      <recent name="$PROJECT_DIR$/Applications" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00d01e40-d4fe-42c6-9e7a-c52cc5cf5387" name="Default Changelist" comment="" />
+      <created>1591428804713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591428804713</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Rama: Master&#10;Se realizó la validación de clonación de repositorio con Sourcetree">
+      <created>1599028840599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599028840599</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rama: Master&#10;Se realizó la validación de clonación de repositorio con Sourcetree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rama: Master&#10;Se realizó la validación de clonación de repositorio con Sourcetree" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2183" y="196" key="#Inspections" timestamp="1596785724118">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="440" y="186" key="#Inspections/0.23.1680.995/1680.23.1920.1057@0.23.1680.995" timestamp="1596784659675" />
+    <state x="2183" y="196" key="#Inspections/0.23.1680.995/1680.23.1920.1057@1680.23.1920.1057" timestamp="1596785724118" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596781771790">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1596781771790" />
+    <state x="583" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597604740256">
+      <screen x="0" y="23" width="1680" height="995" />
+    </state>
+    <state x="583" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.995@0.23.1680.995" timestamp="1597604740256" />
+    <state x="2208" y="47" key="CommitChangelistDialog2" timestamp="1599028854648">
+      <screen x="1680" y="23" width="1920" height="1025" />
+    </state>
+    <state x="2208" y="47" key="CommitChangelistDialog2/0.23.1680.1027/1680.23.1920.1025@1680.23.1920.1025" timestamp="1599028854648" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1601606774472">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1601606774472" />
+    <state x="1930" y="135" key="SettingsEditor" timestamp="1603939279309">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="258" y="76" key="SettingsEditor/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1601611510032" />
+    <state x="219" y="111" key="SettingsEditor/0.0.1680.1050/1680.0.2048.1152@0.0.1680.1050" timestamp="1597292145891" />
+    <state x="1930" y="135" key="SettingsEditor/0.23.1680.995/1680.23.1920.1057@0.23.1680.995" timestamp="1602339905386" />
+    <state x="1930" y="135" key="SettingsEditor/0.23.1680.995/1680.23.1920.1057@1680.23.1920.1057" timestamp="1603939279309" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1599027570069">
+      <screen x="1680" y="23" width="1920" height="1025" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.1027/1680.23.1920.1025@1680.23.1920.1025" timestamp="1599027570069" />
+    <state x="2271" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1605142873090">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2134" y="660" key="com.intellij.ide.util.TipDialog/0.0.1680.1018/1680.23.1920.1057@0.0.1680.1018" timestamp="1603415044449" />
+    <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1603937351368" />
+    <state x="517" y="348" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1596508082816" />
+    <state x="2271" y="358" key="com.intellij.ide.util.TipDialog/0.23.1680.1027/1680.0.1920.1080@1680.0.1920.1080" timestamp="1596774390049" />
+    <state x="2271" y="362" key="com.intellij.ide.util.TipDialog/0.23.1680.1027/1680.23.1920.1025@1680.23.1920.1025" timestamp="1599027631960" />
+    <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.1360.745@0.23.1680.995" timestamp="1597189606387" />
+    <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.1920.1057@0.23.1680.995" timestamp="1605142873090" />
+    <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.1920.1057@1680.23.1920.1057" timestamp="1603938069289" />
+    <state x="517" y="348" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.2048.1129@0.23.1680.995" timestamp="1603585408625" />
+    <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.2048.1129@1680.23.2048.1129" timestamp="1598377585239" />
+    <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995@0.23.1680.995" timestamp="1600297392252" />
+    <state x="488" y="266" width="703" height="518" key="find.popup" timestamp="1605148857199">
+      <screen x="0" y="23" width="1680" height="995" />
+    </state>
+    <state x="488" y="266" width="703" height="518" key="find.popup/0.23.1680.995/1680.23.1920.1057@0.23.1680.995" timestamp="1605148857199" />
+    <state x="505" y="244" width="670" height="641" key="search.everywhere.popup" timestamp="1597109133915">
+      <screen x="0" y="23" width="1680" height="995" />
+    </state>
+    <state x="505" y="244" width="670" height="641" key="search.everywhere.popup/0.23.1680.995/1680.23.1920.1057@0.23.1680.995" timestamp="1597109133915" />
+  </component>
+</project>

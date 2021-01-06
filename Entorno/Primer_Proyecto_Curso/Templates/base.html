@@ -1,0 +1,28 @@
+<!-- 11.1 Estructura de nuestro proyectotodo lo basico que van a heredar -->
+<!DOCTYPE html>
+<!-- 11.1 Carga de los archivos estaticos -->
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{% static 'Css/foundation.min.css' %}" rel="stylesheet">
+    <title>
+        {% block title %}
+        {% endblock title %}
+    </title>
+</head>
+<body>
+{% block content %}
+{% endblock content %}
+<!--11.2 Include-Header-->
+<!-- JavaScript para funcionalidad de barra desplegable, -->
+<script src="{% static 'JavaScript/vendor/jquery.js' %}"></script>
+<script src="{% static 'JavaScript/vendor/what-input.js' %}"></script>
+<script src="{% static 'JavaScript/vendor/foundation.min.js' %}"></script>
+<script>
+      $(document).foundation();
+
+</script>
+
+</body>
+</html>

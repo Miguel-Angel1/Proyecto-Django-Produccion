@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+<h1>Ingrese nombre para busqueda</h1>
+
+<form method="GET">{% csrf_token %}
+    <input id="kword" name="kword" placeholder="ingrese nombre aquí" type="text">
+    <button type="submit">Buscar</button>
+</form>
+
+<h1>Lista Obtenida</h1>
+
+<ul>
+    {% for listar in object_list %}
+    <li>{{ listar }}</li>
+    {% endfor %}
+</ul>
+
+
+</body>
+</html>
+

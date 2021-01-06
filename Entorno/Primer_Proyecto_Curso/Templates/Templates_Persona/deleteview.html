@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block content %}
+{% include "includes/header.html" %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eliminar</title>
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-x">
+        <h1 class="cell">
+            Eliminar Empleado: {{ object.first_name }} {{ object.last_name }}
+        </h1>
+    </div>
+    <div>
+        <form class="cel" method="POST">{% csrf_token %}
+            <div class="callout secondary">
+                <h5>¿Desea eliminar este empleado?</h5>
+                <button class="alert button" type="submit">Confirmar</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+{% endblock content %}

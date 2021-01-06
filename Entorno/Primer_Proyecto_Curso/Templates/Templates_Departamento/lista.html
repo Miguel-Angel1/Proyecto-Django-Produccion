@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block content %}
+{% include "includes/header.html" %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Departamentos</title>
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-x">
+        <h1 class="cell">Lista de Departamentos</h1>
+        <div class="cell">
+            <table>
+                <tbody>
+                {% for departamento in departamentos %}
+                <tr>
+                    <td>{{ departamento.name }}</td>
+                    <td>{{ departamento.short_name }}</td>
+                    <td><a class="button warning" href="{% url 'empleado_app:lista_area' departamento.short_name %}">Ver Empleados</a></td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+{% endblock content %}

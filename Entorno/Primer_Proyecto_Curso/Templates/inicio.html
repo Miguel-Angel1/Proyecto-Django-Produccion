@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Heredando archivos base-->
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Pagina de Inicio Sistema de Empleados
+{% endblock title %}
+
+{% block content %}
+{% include 'includes/header.html' %}
+<!-- 11.3 Pantalla de Inicio: Imagen de portada-->
+<div aria-label="Favorite Space Pictures" class="orbit" data-orbit role="region">
+    <div class="orbit-wrapper">
+        <div class="orbit-controls">
+            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+        </div>
+        <ul class="orbit-container">
+            <li class="is-active orbit-slide">
+                <figure class="orbit-figure">
+                    <img alt="Space" class="orbit-image" src="{% static 'Images/slider.jpg' %}">
+                    <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+                </figure>
+            </li>
+            <li class="orbit-slide">
+                <figure class="orbit-figure">
+                    <img alt="Space" class="orbit-image" src="{% static 'Images/slider.jpg' %}">
+                </figure>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 11.4 Texto -->
+<div class="grid-x align-center">
+    <h1 class="cell large-8" style="font-size: 25px; text-align: center;">Bienvenido</h1>
+    <div class="cell large-7">
+        <div class="callout success">
+            <h5>Registra y controla Empleados</h5>
+            <p>Nada</p>
+            <a href="#">Registra Empleado</a>
+        </div>
+    </div>
+</div>
+<!-- Fin de imagen de portada-->
+{% endblock content %}
